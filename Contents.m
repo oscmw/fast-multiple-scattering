@@ -9,7 +9,7 @@
 %   check_transmission.m
 %
 % Validation for circular and noncircular scatterers (using point source
-% problem (39) in Reference [1].
+% problem (39) in Reference [1]).
 %
 %   example_sound_soft.m
 %   example_transmission.m
@@ -28,6 +28,11 @@
 %
 %   solverNystromPenetrable.m
 %
+% Function for computing radiating wavefunction expansions from far field
+% data (see Reference [2]):
+%
+%   farfield2radiatingwavefunctionexpansion.m
+% 
 %
 % References:
 %
@@ -35,7 +40,9 @@
 % problem with large multiple scattering configurations, S. C. Hawkins and
 % M. Ganesh, J. Acoust. Soc. Am 2024.
 %
-% Stuart C. Hawkins - 7 May 2024
+% [2] Approximation of radiating waves in the near-field: error estimates
+% and application to a class of inverse problems, J. Barkhan, M. Ganesh
+% and S. C. Hawkins, J. Comput. Appl. Math. vol 401 pp 113769.
 
 % Copyright 2024 Stuart C. Hawkins and M. Ganesh.
 % 	
@@ -54,4 +61,7 @@
 % You should have received a copy of the GNU General Public License
 % along with fast-multiple-scattering. If not, see <http://www.gnu.org/licenses/>.
 
+
+%
+% Stuart C. Hawkins - 7 May 2024
 
